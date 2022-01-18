@@ -99,26 +99,26 @@ public class Adapterp extends PagerAdapter implements DatePickerDialog.OnDateSet
             @Override
             public void onClick(View v) {
                 if (position == 0) {
-//                    Intent intent = new Intent(contextp,SearchPatActivity.class);
-//                    contextp.startActivity(intent);
+                   Intent intent = new Intent(contextp,SearchPatActivity.class);
+                  contextp.startActivity(intent);
                 } else if (position == 1) {
-//                    Intent intent = new Intent(contextp, DossierMedical.class);
-//                    intent.putExtra("patient_email",FirebaseAuth.getInstance().getCurrentUser().getEmail().toString());
-//                    contextp.startActivity(intent);
+                 Intent intent = new Intent(contextp, DossierMedical.class);
+                 intent.putExtra("patient_email",FirebaseAuth.getInstance().getCurrentUser().getEmail().toString());
+                    contextp.startActivity(intent);
                 } else if (position == 2) {
-//                    Intent i1=new Intent(contextp,MyDoctorsAvtivity.class);
-//                    contextp.startActivity(i1);
+                    Intent i1=new Intent(contextp,MyDoctorsAvtivity.class);
+                  contextp.startActivity(i1);
                 } else if (position == 3) {
-//                    Intent iy=new Intent(contextp,ProfilePatientActivity.class);
-//                    contextp.startActivity(iy);
+                   Intent iy=new Intent(contextp,ProfilePatientActivity.class);
+                    contextp.startActivity(iy);
                 } else if (position == 4) {
-//                    Intent iy=new Intent(contextp,PatientAppointementsActivity.class);
-//                    contextp.startActivity(iy);
+                  Intent iy=new Intent(contextp,PatientAppointementsActivity.class);
+                  contextp.startActivity(iy);
                 } else if (position == 5) {
-//                    FirebaseAuth.getInstance().signOut();
-//                    Intent intent = new Intent(contextp, MainActivity.class);
-//                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-//                    contextp.startActivity(intent);
+                   FirebaseAuth.getInstance().signOut();
+                    Intent intent = new Intent(contextp, MainActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                contextp.startActivity(intent);
                 }
 
 
