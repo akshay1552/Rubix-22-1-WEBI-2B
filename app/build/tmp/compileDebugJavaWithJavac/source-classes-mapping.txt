@@ -147,6 +147,9 @@ com/ensias/healthcareapp/SplashScreen.java
  com.ensias.healthcareapp.SplashScreen$1
 com/ensias/healthcareapp/model/Doctor.java
  com.ensias.healthcareapp.model.Doctor
+com/ensias/healthcareapp/VideoCall.java
+ com.ensias.healthcareapp.VideoCall
+ com.ensias.healthcareapp.VideoCall$1
 com/ensias/healthcareapp/Common/NonSwipeViewPager.java
  com.ensias.healthcareapp.Common.NonSwipeViewPager
  com.ensias.healthcareapp.Common.NonSwipeViewPager$MyScroller
@@ -208,6 +211,7 @@ com/ensias/healthcareapp/adapter/MyDoctorsAdapter.java
  com.ensias.healthcareapp.adapter.MyDoctorsAdapter$2
  com.ensias.healthcareapp.adapter.MyDoctorsAdapter$3
  com.ensias.healthcareapp.adapter.MyDoctorsAdapter$4
+ com.ensias.healthcareapp.adapter.MyDoctorsAdapter$5
  com.ensias.healthcareapp.adapter.MyDoctorsAdapter$MyDoctorAppointementHolder
 com/ensias/healthcareapp/ConsultationFragmentPage.java
  com.ensias.healthcareapp.ConsultationFragmentPage
@@ -222,6 +226,7 @@ com/ensias/healthcareapp/adapter/MyPatientsAdapter.java
  com.ensias.healthcareapp.adapter.MyPatientsAdapter$3
  com.ensias.healthcareapp.adapter.MyPatientsAdapter$4
  com.ensias.healthcareapp.adapter.MyPatientsAdapter$5
+ com.ensias.healthcareapp.adapter.MyPatientsAdapter$6
  com.ensias.healthcareapp.adapter.MyPatientsAdapter$MyPatientsHolder
 com/ensias/healthcareapp/Mid.java
  com.ensias.healthcareapp.Mid

@@ -79,6 +79,7 @@
             android:layout_marginLeft="316dp"
             android:layout_marginBottom="23dp"
             android:background="@drawable/ic_call_black_24dp" />
+
         <Button
             android:id="@+id/videocallBtn"
             android:layout_width="26dp"
@@ -89,6 +90,6 @@
             android:layout_marginStart="260dp"
             android:layout_marginLeft="300dp"
             android:layout_marginBottom="23dp"
-            android:background="@drawable/ic_call_black_24dp" />
+            android:background="@drawable/ic_baseline_video_call_24" />
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

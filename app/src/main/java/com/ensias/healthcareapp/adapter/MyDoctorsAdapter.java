@@ -14,6 +14,7 @@ import android.widget.TextView;
 
 import com.ensias.healthcareapp.ChatActivity;
 import com.ensias.healthcareapp.R;
+import com.ensias.healthcareapp.VideoCall;
 import com.ensias.healthcareapp.model.Doctor;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
@@ -46,6 +47,13 @@ public class MyDoctorsAdapter extends FirestoreRecyclerAdapter<Doctor, MyDoctors
             @Override
             public void onClick(View v) {
                 openPage(v.getContext(),doctor);
+            }
+        });
+        myDoctorsHolder.videocall.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(v.getContext(), VideoCall.class);
+                v.getContext().startActivity(intent);
             }
         });
         myDoctorsHolder.callBtn.setOnClickListener(new View.OnClickListener() {
@@ -103,7 +111,7 @@ public class MyDoctorsAdapter extends FirestoreRecyclerAdapter<Doctor, MyDoctors
         TextView textViewStatus;
         ImageView imageViewDoctor;
         Button sendMessageButton;
-        Button callBtn;
+        Button callBtn,videocall;
         Button contactButton;
         public MyDoctorAppointementHolder(@NonNull View itemView) {
             super(itemView);
@@ -114,6 +122,7 @@ public class MyDoctorsAdapter extends FirestoreRecyclerAdapter<Doctor, MyDoctors
             sendMessageButton = itemView.findViewById(R.id.voir_fiche_btn);
             callBtn = itemView.findViewById(R.id.callBtn);
             contactButton = itemView.findViewById(R.id.contact);
+            videocall=itemView.findViewById(R.id.videocallBtn);
         }
     }
 
