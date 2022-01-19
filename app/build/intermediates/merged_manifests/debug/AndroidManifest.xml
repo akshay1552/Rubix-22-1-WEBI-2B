@@ -51,9 +51,11 @@
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity
+            android:name="com.ensias.healthcareapp.Medicine"
+            android:exported="false" />
+        <activity
             android:name="com.ensias.healthcareapp.VideoCall"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity android:name="com.ensias.healthcareapp.patientswipe" />
         <activity android:name="com.ensias.healthcareapp.Mid" />
         <activity android:name="com.ensias.healthcareapp.SplashScreen" >

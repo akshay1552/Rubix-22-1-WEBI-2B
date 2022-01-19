@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Android Studio Projects\\VirtualHealthAssistant\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
+            "outputFile": "E:\\Android Studio Projects\\Rubix-22-1-WEBI-2B\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
             "map": [
                 {
                     "source": "C:\\Users\\AKSHAY\\.gradle\\caches\\transforms-2\\files-2.1\\764e9288f3b93c2b44348b5fa131e21f\\jetified-play-services-basement-17.1.1\\res\\values-ja\\values.xml",

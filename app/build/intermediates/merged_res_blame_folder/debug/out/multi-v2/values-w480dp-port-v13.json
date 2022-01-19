@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Android Studio Projects\\VirtualHealthAssistant\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+            "outputFile": "E:\\Android Studio Projects\\Rubix-22-1-WEBI-2B\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\AKSHAY\\.gradle\\caches\\transforms-2\\files-2.1\\8b63f0b43f14224a3880b479c5fe69e5\\material-1.4.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",

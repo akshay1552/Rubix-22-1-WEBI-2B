@@ -1879,7 +1879,9 @@ drawable button_radius_accent_color
 drawable button_radius_primary_color
 drawable button_success
 drawable calendar
+drawable cherry
 drawable circle
+drawable comment
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1899,6 +1901,8 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable cough
+drawable crosin
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -1907,7 +1911,12 @@ drawable design_snackbar_background
 drawable dmax_spots_spot
 drawable doct
 drawable doctor
+drawable dolo1
+drawable ferikind
 drawable folder
+drawable food1
+drawable food2
+drawable food3
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable healthy
@@ -1964,6 +1973,7 @@ drawable images_dropboxlogo_square
 drawable images_iconcloud
 drawable images_jitsilogo_square
 drawable img
+drawable like
 drawable link_background
 drawable loading_shape
 drawable logo
@@ -2016,6 +2026,7 @@ drawable price_background
 drawable primary_gradient_green
 drawable profile
 drawable profilee
+drawable rate
 drawable rating_background
 drawable rectangle_round
 drawable redbox_top_border_background
@@ -2030,18 +2041,26 @@ drawable rounded_relativelayout
 drawable rr
 drawable search
 drawable searchh
+drawable share
+drawable split
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable valide
 drawable videocall
+drawable vitamin
+drawable zinco
 font aclonica
 font amita
 font courgette
 font montserrat_alternates
 font montserrat_alternates_bold
 font roboto
+font roboto_black
+font roboto_bold
+font roboto_bolditalic
 font roboto_light
+font roboto_regular
 id ALT
 id All
 id BOTTOM_END
@@ -2213,6 +2232,8 @@ id chain
 id chains
 id checkbox
 id checked
+id cherry
+id cherry1
 id chip
 id chip1
 id chip2
@@ -2224,6 +2245,7 @@ id clear_text
 id clip_horizontal
 id clip_vertical
 id clockwise
+id cofsil
 id collapseActionView
 id confirm_button
 id confirmeBtn
@@ -2237,6 +2259,7 @@ id contiguous
 id coordinator
 id cos
 id counterclockwise
+id crocin
 id custom
 id customPanel
 id cut
@@ -2273,6 +2296,7 @@ id doctor_phone
 id doctor_specialite
 id doctor_specialite5
 id doctor_view_title
+id dolo
 id dragDown
 id dragEnd
 id dragLeft
@@ -2300,6 +2324,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id ferikind
 id fiche_description
 id fiche_maladie
 id fiche_traitement
@@ -2427,6 +2452,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id media_actions
+id medicine
 id message
 id message_item_text
 id message_item_text2
@@ -2712,6 +2738,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id vitamin_c
 id voir_fiche_btn
 id voir_fiche_btn2
 id weightBtn
@@ -2721,6 +2748,7 @@ id withinBounds
 id wrap
 id wrap_content
 id zero_corner_chip
+id zinco
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -2805,6 +2833,7 @@ layout activity_first_signin
 layout activity_home
 layout activity_jitsi_meet
 layout activity_main
+layout activity_medicine
 layout activity_mid
 layout activity_my_calendar_doctor
 layout activity_my_doctors

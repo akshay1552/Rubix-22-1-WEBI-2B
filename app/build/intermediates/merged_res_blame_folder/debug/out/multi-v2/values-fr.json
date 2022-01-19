@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Android Studio Projects\\VirtualHealthAssistant\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
+            "outputFile": "E:\\Android Studio Projects\\Rubix-22-1-WEBI-2B\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\AKSHAY\\.gradle\\caches\\transforms-2\\files-2.1\\de4504a44ff1c2eebbafc7766d076565\\core-1.5.0\\res\\values-fr\\values-fr.xml",

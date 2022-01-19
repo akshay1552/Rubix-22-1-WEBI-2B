@@ -13,6 +13,7 @@ com/ensias/healthcareapp/ProfilePatientActivity.java
  com.ensias.healthcareapp.ProfilePatientActivity$1
  com.ensias.healthcareapp.ProfilePatientActivity$2
  com.ensias.healthcareapp.ProfilePatientActivity$3
+ com.ensias.healthcareapp.ProfilePatientActivity$4
 com/ensias/healthcareapp/PatientRequestPage.java
  com.ensias.healthcareapp.PatientRequestPage
  com.ensias.healthcareapp.PatientRequestPage$1
@@ -215,6 +216,15 @@ com/ensias/healthcareapp/adapter/MyDoctorsAdapter.java
  com.ensias.healthcareapp.adapter.MyDoctorsAdapter$MyDoctorAppointementHolder
 com/ensias/healthcareapp/ConsultationFragmentPage.java
  com.ensias.healthcareapp.ConsultationFragmentPage
+com/ensias/healthcareapp/Medicine.java
+ com.ensias.healthcareapp.Medicine
+ com.ensias.healthcareapp.Medicine$1
+ com.ensias.healthcareapp.Medicine$2
+ com.ensias.healthcareapp.Medicine$3
+ com.ensias.healthcareapp.Medicine$4
+ com.ensias.healthcareapp.Medicine$5
+ com.ensias.healthcareapp.Medicine$6
+ com.ensias.healthcareapp.Medicine$7
 com/ensias/healthcareapp/ConfirmedAppointmensActivity.java
  com.ensias.healthcareapp.ConfirmedAppointmensActivity
 com/ensias/healthcareapp/model/Hour.java

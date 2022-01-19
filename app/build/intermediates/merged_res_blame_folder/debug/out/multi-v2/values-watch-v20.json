@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Android Studio Projects\\VirtualHealthAssistant\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "E:\\Android Studio Projects\\Rubix-22-1-WEBI-2B\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\AKSHAY\\.gradle\\caches\\transforms-2\\files-2.1\\7b6a2ac2a1731610b76a743f5b43d693\\jetified-play-services-auth-19.0.0\\res\\values-watch-v20\\values.xml",

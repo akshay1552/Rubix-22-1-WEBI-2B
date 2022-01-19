@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.os.Parcelable;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -44,6 +46,7 @@ public class ProfilePatientActivity extends AppCompatActivity {
     private MaterialTextView doctorAddress;
     private MaterialTextView doctorAbout;
     private ImageView doctorImage;
+    private Button pharmacy;
     StorageReference pathReference ;
     final String doctorID = FirebaseAuth.getInstance().getCurrentUser().getEmail().toString();
     FirebaseFirestore db = FirebaseFirestore.getInstance();
@@ -62,6 +65,13 @@ public class ProfilePatientActivity extends AppCompatActivity {
         doctorAddress = findViewById(R.id.doctor_address);
         doctorAbout = findViewById(R.id.doctor_about);
         doctorImage = findViewById(R.id.imageView3);
+        pharmacy = findViewById(R.id.medicine);
+        pharmacy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                PharmaActivity();
+            }
+        });
         Drawable defaultImage = getResources().getDrawable(R.drawable.ic_anon_user_48dp); //default user image
         AlertDialog dialog = new SpotsDialog.Builder().setContext(this).setCancelable(true).build();
         dialog.show();
@@ -113,6 +123,11 @@ public class ProfilePatientActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         // Get access to the custom title view
         TextView mTitle = (TextView) toolbar.findViewById(R.id.toolbar_title);
+    }
+
+    private void PharmaActivity() {
+        Intent intent = new Intent(this,Medicine.class);
+        startActivity(intent);
     }
 
     // Menu icons are inflated just as they were with actionbar
