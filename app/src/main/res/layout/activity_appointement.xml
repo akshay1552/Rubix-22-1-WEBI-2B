@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-=======
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
->>>>>>> origin/master
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -32,8 +32,8 @@
 
         </LinearLayout>
     </ScrollView>
-<<<<<<< HEAD
-</androidx.constraintlayout.widget.ConstraintLayout>
-=======
 </RelativeLayout>
->>>>>>> origin/master
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
