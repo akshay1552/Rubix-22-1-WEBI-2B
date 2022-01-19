@@ -9,7 +9,7 @@ The main mission is to provide accessible, high-quality healthcare to the patien
 ## Mission 
 To provide accessible,high-quality healthcare to the patients remotely.
 
-## Technologies planned to be used
+## Technologies 
 - Android Application using java
 - FireBase Database
 - XML
