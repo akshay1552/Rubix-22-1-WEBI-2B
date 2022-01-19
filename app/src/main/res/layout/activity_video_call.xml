@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="#fff"
     tools:context=".VideoCall">
 
@@ -47,4 +48,8 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
+=======
+    tools:context=".VideoCall">
+
+>>>>>>> origin/master
 </androidx.constraintlayout.widget.ConstraintLayout>
